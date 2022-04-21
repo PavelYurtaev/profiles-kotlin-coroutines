@@ -1,0 +1,9 @@
+spring:
+  data:
+    r2dbc:
+      repositories:
+        enabled: true
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/r2dbc_profiles_db
+    username: pyurtaev
+    password: pyurtaev!
